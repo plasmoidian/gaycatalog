@@ -1,8 +1,6 @@
 backend:
-  name: bitbucket
-  repo: Plasmoidian/thegaymoviecatalog
-  branch: master
-  app_id: V39CXUeYkG9hBg92TP
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
 
 # This line should *not* be indented
 media_folder: "/images" # Media files will be stored in the repo under images/uploads
