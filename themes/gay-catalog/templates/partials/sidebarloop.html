@@ -1,0 +1,31 @@
+{% for article in articles %}
+    {%- if loop.index <= 3 %}
+    <div class="box">
+        <article class="media">
+            <div class="media-left">
+                <figure>
+        	    {% if article.featured_image -%}
+                    <a href="{{ SITEURL }}/{{ article.url }}">
+                        <img class="width-is-64" src='{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ article.featured_image|e }}' ></img>
+                    </a>
+                {% else %}
+                    <a href="{{ SITEURL }}/{{ article.url }}">
+                        <img class="width-is-64" src='{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ article.title|e }}.jpg' ></img>
+                    </a>                
+                {% endif -%}
+                </figure>
+            </div>
+            <div class="post">
+                <h1 class="is-size-5"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.category }} - {{ article.title }} ({{ article.year }})</a></h1>
+                {% if article.post_type == 'text' %}
+                {% else %}
+                    <div>
+                        <a href="#" class="category-tag">{{ article.category }}</a>
+                    </div>
+                {% endif %}
+                
+            </div>
+        </article>
+    </div>
+    {% endif %}
+{% endfor%}

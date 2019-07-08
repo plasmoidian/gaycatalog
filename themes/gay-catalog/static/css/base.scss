@@ -1,0 +1,290 @@
+$bgcolor: #fff;
+$fontcolor1: #111;
+$fontcolor2: #111;
+$fontcolor3: lighten(#027e6c, 20%);
+
+
+
+a {
+  color:$fontcolor2;
+}
+a:hover {
+  color:$fontcolor3;
+}
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: $fontcolor1;
+}
+.content blockquote {
+    background-color: $fontcolor3;
+    border-left: 5px solid $fontcolor2;
+    padding: 1.25em 1.5em;
+}
+$head-font: 'Anton', sans;
+$paragraph-font: 'Playfair Display', serif;
+$yellow: #ffde00;
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $head-font;
+}
+body {
+  font-family: $paragraph-font;
+  /*padding: 10px 5px 0 5px;*/
+  background-image: url("../img/bg.png");
+  background-repeat: repeat;
+  color: $fontcolor1;
+}
+//GRID
+#grid[data-columns]::before {
+	content: '3 .column.size-1of3';
+}
+.column { float: left; }
+@media screen and (max-width: 480px){
+	#grid[data-columns]::before {
+		content: '1 .column.size-1of1';
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	#grid[data-columns]::before {
+		content: '2 .column.size-1of2';
+	}
+}
+@media screen and (min-width: 769px) {
+	#grid[data-columns]::before {
+		content: '3 .column.size-1of3';
+	}
+}
+
+/* Again, you’re free to use and define the classes: */
+.column { float: left; 
+}
+.size-1of1 { width: 100%; 
+  padding: 0 10px;
+}
+.size-1of2 { width: 50%; 
+  padding: 0 10px;
+}
+.size-1of3 { width: 33.333%; 
+  padding: 0 10px;
+}
+.size-1of4 { width: 25%; 
+  padding: 0 10px;
+}
+//custom paddings in action
+
+.size-1of3:nth-child(1) {
+  padding-left: 0 ;
+}
+.size-1of3:nth-child(3) {
+  padding-right: 0 ;
+}
+
+//END GRID
+// .post {
+//   margin-bottom: 10px;
+// }
+.post {
+  a {
+    color: $fontcolor2;
+  }
+  a:hover {
+    color: $fontcolor3;
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+}
+.post-type-text {
+  color: white;
+  clear: both;
+  padding: 25px;
+  line-height: 1.5;
+  position: relative;
+  a {
+    color: white;
+  }
+  h1 {
+    margin: 65px 0;
+    z-index: 1;
+    position: relative;
+  }
+  h1 > a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline solid white;
+    font-family: 'Anton';
+  }
+}
+.post-type-text > div:nth-child(2) {
+  z-index: 1;
+  position: relative;
+}
+.post-summary {
+  p {
+    border-top: 2px #333 solid;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #0009;
+}
+.background {
+  width: 100%;
+  height: 100%;  
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  z-index: 1;
+}
+
+//helpers
+.mb-10 {
+  margin-bottom: 10px;
+}
+article {
+  p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    a {
+      color: #373737;   
+      background: #e5ba0e;   
+      padding: 3px;
+      transition: all 150ms ease-in;
+    }
+    a:hover {
+      color: #373737;
+      background: #c0392b;
+      padding: 3px;
+      transition: all 150ms ease-out;
+    }
+  }
+}
+.category-tag {
+  border-bottom: 2px solid $fontcolor2;
+  font-size: 0.75rem;
+  padding: 4px  11px;
+}
+a.category-tag:hover {
+  color: $fontcolor3;
+  border-bottom: 2px solid $fontcolor3;
+}
+.width-is-64 {
+  width: 64px;
+}
+iframe {
+    width: 100%;
+    min-height: 380px;
+}
+@media screen and (max-width: 480px){
+  iframe {
+  width: 100%;
+  height: 100%;
+  }
+}
+
+.is-cleared {
+  clear: both;
+  margin-bottom: 10px;
+}
+.share {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  a {
+    color: $fontcolor2;
+    padding: 15px;
+    border: 2px solid $fontcolor2;
+    margin: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  a:hover {
+    color: $yellow;
+  }
+  span {
+  font-family: Anton;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 2.5px;
+  width: 100%;
+  color:$fontcolor1;
+  }
+}
+.svg-inline--fa {
+  width: 24px;
+}
+nav.pagination {
+  font-family: Anton;
+}
+.pagination-link {
+  color: $fontcolor2;
+  min-width: 2.25em;
+  border: $fontcolor2 solid 2px;  
+}
+.pagination-link, .pagination-next, .pagination-previous {
+    border-color: $fontcolor2;
+    color: $fontcolor2;
+    min-width: 2.25em;
+}
+.table {
+  background-color: $bgcolor;
+  color: $fontcolor1;
+}
+
+// new classes
+
+//body
+.body-shadow {
+  box-shadow: 0px 30px 30px 5px rgba(0,0,0,0.2);
+  background-color: #fff;
+}
+
+// sidebar
+/* logo now applies to the logo itself */
+.logo {
+  width: 100%; 
+  height: auto;
+}
+.new-sidebar {
+  margin-right: -12px;
+}
+.links-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.links-menu a {
+  padding: 4px 15px;
+  margin: 5px 0;
+  font-family: Anton;
+  font-size: 2rem;
+  text-align: right;
+}
+.links-menu a:hover {
+  background-color: #f1c40f;
+  color: black;
+}
+.links-menu a.active {
+  background-color: #f1c40f;
+}
+footer {
+  background: #373d42;
+  color: white;
+  margin-top: 12px;
+  padding: 70px 0;
+  display: inline-block;
+  width: 100%;
+  a {
+    color: #e5ba0e;
+  }
+}

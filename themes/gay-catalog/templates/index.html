@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+    <div id="grid" data-columns>
+        {% include "partials/loop.html" %}
+    </div>
+    <div class="is-cleared">{% include "partials/pagination.html" %}</div>
+{% endblock content %}

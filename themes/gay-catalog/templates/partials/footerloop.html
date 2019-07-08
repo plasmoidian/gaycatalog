@@ -1,0 +1,5 @@
+{% for article in articles %}
+{%- if loop.index <= 4 %}
+<p><a href="{{ SITEURL }}/{{ article.url }}">{{ article.category }} - {{ article.title }}</a></p>
+{% endif %}
+{% endfor%}
