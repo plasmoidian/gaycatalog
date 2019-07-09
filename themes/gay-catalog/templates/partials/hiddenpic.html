@@ -1,9 +1,9 @@
 <p style="visibility: hidden;display: none;">
     <a href="{{ SITEURL }}/{{ article.url }}">
         {% if article.featured_image %}
-        <img class="mb-10" src='{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ article.featured_image|e }}' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})" ></img>
+        <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.featured_image|e }}' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})" ></img>
         {% else %}
-        <img class="mb-10" src='{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ article.title|e }}.jpg' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
+        <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.title|e }}.jpg' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
         {% endif %}
     </a>
 </p>

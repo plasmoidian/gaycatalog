@@ -2,7 +2,7 @@
 
     {% if article.post_type == 'text' %}
         <div class ="mb-10 post-type-text">
-        	<div class="background" {% if article.featured_image %} style="background-image: url('{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ article.featured_image|e }} ');" {% endif %} >
+        	<div class="background" {% if article.featured_image %} style="background-image: url('{{ SITEURL }}/uploads/{{ article.featured_image|e }} ');" {% endif %} >
         	    <div class="overlay"></div>
         	</div>
             <div>
@@ -18,11 +18,11 @@
         	<div>
         	    {% if article.featured_image %}
                     <a href="{{ SITEURL }}/{{ article.url }}">
-                        <img src='{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ article.featured_image|e }}' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
+                        <img src='{{ SITEURL }}/uploads/{{ article.featured_image|e }}' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
                     </a>
                 {% else %}
                     <a href="{{ SITEURL }}/{{ article.url }}">
-                        <img src='{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ article.title|e }}.jpg' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
+                        <img src='{{ SITEURL }}/uploads/{{ article.title|e }}.jpg' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
                     </a>                
                 {% endif %}
                 <div class="post-summary">

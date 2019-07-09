@@ -21,7 +21,7 @@
                 <div class="content">
                     {% if article.post_type == 'text' %}
                         <h1 class="is-size-1">{{ article.title }}</h1>
-                        <img class="mb-10" src='{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ article.featured_image|e }}' alt="{{ article.category }} - {{ article.title }}"></img>
+                        <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.featured_image|e }}' alt="{{ article.category }} - {{ article.title }}"></img>
                         {{ article.content }}
                     {% else %}
                         <h1 class="is-size-1">{{ article.title }}</h1>
@@ -41,9 +41,9 @@
                     {% include 'partials/sidebarloop.html' %}
                 {% else %}
                     {% if article.featured_image %}
-                        <img class="mb-10" src='{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ article.featured_image|e }}' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})" ></img>
+                        <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.featured_image|e }}' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})" ></img>
                     {% else %}
-                        <img class="mb-10" src='{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ article.title|e }}.jpg' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
+                        <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.title|e }}.jpg' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
                     {% endif %}
                     <table class="table">
                         {% if article.original %}
