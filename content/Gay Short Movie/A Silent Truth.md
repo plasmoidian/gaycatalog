@@ -12,7 +12,7 @@ However, I must confess that I was to be proved wrong! I found myself identifyin
 
 - Written by [jordankingsford](http://www.imdb.com/user/ur37209573/?ref_=tt_urv)
 
-![Watch a Silent Truth gay short movie]({filename}/images/silenttruth.jpg)
+![Watch a Silent Truth gay short movie]({filename}/uploads/silenttruth.jpg)
 
 Plot:
 

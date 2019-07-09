@@ -16,7 +16,7 @@ It's a nice movie, with no particular theme other than friendship. Worth watchin
 
 But you know what they say: once a jerk, always a jerk.
 
-![The Whiz Kids (Freund) - The gay movie catalog - Marlon Kittel]({filename}/images/marlonkittel.gif)
+![The Whiz Kids (Freund) - The gay movie catalog - Marlon Kittel]({filename}/uploads/marlonkittel.gif)
 
 Marlon Kittel, worked in several other movies, including the gay themed hit Summer Storm. The gif above was taken from there, he is the boy on the left.
 

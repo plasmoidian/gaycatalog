@@ -12,7 +12,7 @@ It starts with Chris remembering when he asked her wife to marry him. Beautiful 
 
 But his life isn't like that anymore. His own lies became a burden in his marriage. And now it is time to face the truth about him.
 
-![If you could only be you gay short film - The gay movie catalog]({filename}/images/iyc.jpg)
+![If you could only be you gay short film - The gay movie catalog]({filename}/uploads/iyc.jpg)
 
 Don't forget to tell us your thoughts on this movie!
 

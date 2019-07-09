@@ -12,7 +12,7 @@ Fishbelly White has a very dear place near my heart, it was one of the first gay
 
 It is about Duncan, a teenager who recently lost his mother. He and his father are still struggling with it. They are still trying to get over it. But, actually, they are suffering much more than they realize.
 
-![Fishbelly White - The gay movie catalog - Mickey Smith]({filename}/images/marlonkittel.gif)
+![Fishbelly White - The gay movie catalog - Mickey Smith]({filename}/uploads/marlonkittel.gif)
 
 Duncan lives on a farm and his only friend is Perry. All other boys see Duncan as the weirdo. So does Perry, to be honest, but he accepts Duncan the way he is, at least when they are alone.
 

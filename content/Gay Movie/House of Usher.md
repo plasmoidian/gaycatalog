@@ -16,7 +16,7 @@ As Victor starts to discover the history of the house, things start going weird 
 
 Now let's talk abot the actors! *yay*!
 
-![Frank Mentier, actor of House of Usher, now a Personal Trainer]({filename}/images/frankmat.jpg)
+![Frank Mentier, actor of House of Usher, now a Personal Trainer]({filename}/uploads/frankmat.jpg)
 
 Frank Mentier is a sexy  actor, he knows how to make a super evil look that fits the role perfectly.
 Although he has acted in other movies, he became a personal trainer in Los Angeles.

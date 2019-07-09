@@ -16,7 +16,7 @@ About the actors
 
 Christian Escudero who plays the role of the husband Sergio is  known spanish actor, with several other lgbt movies, including: the short [Versatile](https://www.imdb.com/title/tt7591822/).
 
-![Christian Escudero - Open relationship - The gay movie catalog]({filename}/images/escudero.jpg)
+![Christian Escudero - Open relationship - The gay movie catalog]({filename}/uploads/escudero.jpg)
 
 Christian is the man on the left.
 

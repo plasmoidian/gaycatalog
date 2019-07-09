@@ -12,7 +12,7 @@ He was just starting his self discovery journey, with all those new feelings and
 
 A **must see movie**. 
 
-![Christopher Nee in Late Summer](../../theme/img/chrisnee.jpg)
+![Christopher Nee in Late Summer]({filename}/uploads/chrisnee.jpg)
 
 Sadly I found very little information on both actors, nothing relevant to share. So if you know what happened to them, let us know in the comments below.
 

@@ -10,7 +10,7 @@ A short story about love and finding common ground, the British short film Jamie
 
 When the two men meet, they share war stories of their past flings.  Instant companionship is found as each man shares his harshest wounds and happiest times with the other.
 
-![Sebastian Christophers in the gay short movie Jamie]({filename}/images/sebs.jpg)
+![Sebastian Christophers in the gay short movie Jamie]({filename}/uploads/sebs.jpg)
 
 Sebastian Christophers, the actor behind the main character, lives in London. He has been doing a lot of theater acting lately and I sincerely hope he gets the attention he deserves.
 

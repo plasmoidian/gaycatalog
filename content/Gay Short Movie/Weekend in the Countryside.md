@@ -14,6 +14,6 @@ No, never mind.
 
 Did I mention that the house is full of dogs?
 
-![Week-end à la campagne movie - The gay movie catalog]({filename}/images/weekend.jpg)
+![Week-end à la campagne movie - The gay movie catalog]({filename}/uploads/weekend.jpg)
 
 Short and sexy movie that will inspire most of you :)

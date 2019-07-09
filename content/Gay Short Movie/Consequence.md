@@ -14,6 +14,6 @@ Synopsis provided by the director:
 
 >  When Ty makes the biggest mistake of his life will it be possible to fix it? Or will he be forced to finally accepted the Consequence of his action?
 
-![Gay short movie: Consequence, by Peter Michael]({filename}/images/consequence2.jpg)
+![Gay short movie: Consequence, by Peter Michael]({filename}/uploads/consequence2.jpg)
 
 P.s: I made the cover because I didn't find the official one to share. Hope Peter doesn't mind.

@@ -11,4 +11,4 @@ Tim holds Dave, the man that he loved in school when they were teenagers, captiv
 "This is a film about taking responsibility for our actions and also about rejection..." says writer/director Luiz DeBarros.  
 
 Some curiosity:
-This short gay movie was recorded in South Africa, both actors were young art students. David acted in several other movies like District 9, but I couldn�t find anything else about Gerrie. Too bad, he�s cute, don�t you think?
+This short gay movie was recorded in South Africa, both actors were young art students. David acted in several other movies like District 9, but I couldn�t find anything else about Gerrie. Too bad, he's cute, don't you think?

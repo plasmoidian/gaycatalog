@@ -10,7 +10,7 @@ Christian and James are best friends and spend most of their time together. Unbe
 
 So even as Christian wants to go beyond the limits of friendship, he is aware of his friend's obedience to the nom de pere, the name of the father, id est, the fatherly authority that has the final say. When Christian tells his friend "You don't have to do everything your old man says" he expects James to, effectively, step out of the father's commands.  But how can one subvert the mechanisms of power? There are rules and categorical imperatives out there, and somehow we must learn to survive without bequeathing upon ourselves our true nature. 
 
-![Dear Friend gay short movie! Watch online!]({filename}/images/dearfriend.jpg)
+![Dear Friend gay short movie! Watch online!]({filename}/uploads/dearfriend.jpg)
 
 It's 1965 and Christian knows that homosexuality is technically illegal in England. However he finds within himself enough courage to surpass the pre-established limits. As philosopher Alan Badiou would define it "Courage is the name of something which is not reducible either to law or desire. Courage is the name for subjectivity which is irreducible to the dialectics of law and desire in its proper form". 
 

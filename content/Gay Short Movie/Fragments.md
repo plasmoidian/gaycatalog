@@ -14,7 +14,7 @@ An unhappy lion mascot, a straight talking chick fed up with sexual double stand
 
 Director: Stéphanie Anne Weber Biron (also in the cast: the talking girl).
 
-![Fragments gay short film - The gay movie catalog]({filename}/images/fragments.jpg)
+![Fragments gay short film - The gay movie catalog]({filename}/uploads/fragments-connor-jessup_.jpg)
 
 
 

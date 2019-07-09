@@ -11,6 +11,6 @@ Isherwood is best known for 2 autobiographical novellas: The Berlin Stories.
 
 The plot is about Isherwood getting to know his German boyfriend Heinzduring the rise of Nazism in 1930. 
 
-![Watch Christopher and His Kind online now]({filename}/images/chris.jpg)
+![Watch Christopher and His Kind online now]({filename}/uploads/chris.jpg)
 
 Watch out! Hot scenes ahead!

@@ -12,4 +12,4 @@ That's when he gets an offer: chas for sex. And he goes on this 'blind date'.
 
 Is he really an innocent boy? Is it the first time? The last? Find out.
 
-![Gay short movie Lonely Dietmar online]({filename}/images/lonelydietmar.jpg)
+![Gay short movie Lonely Dietmar online]({filename}/uploads/lonelydietmar.jpg)

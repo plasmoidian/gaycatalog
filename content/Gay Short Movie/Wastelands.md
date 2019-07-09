@@ -10,4 +10,4 @@ Director Marco van Bergen shared on [Youtube](https://www.youtube.com/channel/UC
 
 Wastelands is about Marc, a teenager who keeps to himself a growing passion for his neighbor. As they grow closer, an opportunity to go camping might be his dream come true, or not.
 
-![Wastelands Gay short movie]({filename}/images/wastelands2.jpg)
+![Wastelands Gay short movie]({filename}/uploads/wastelands2.jpg)

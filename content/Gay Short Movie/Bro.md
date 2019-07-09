@@ -12,4 +12,4 @@ It's about Aaron and Harris, one is having problems with girls and the other is 
 
 Will they get over it? Watch to find out.
 
-![Bro Gay short movie]({filename}/images/Bro2.jpg)
+![Bro Gay short movie]({filename}/uploads/Bro2.jpg)

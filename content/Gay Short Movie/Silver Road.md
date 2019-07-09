@@ -22,7 +22,7 @@ It's been 12 years since this movie was recorded and I was impressed to discover
 
 He's been acting in several movies and TV series, including Entourage and Reing.
 
-![Handsome Jonathan Keltz](../../theme/img/johnny.jpg)
+![Handsome Jonathan Keltz]({filename}/uploads/johnny.jpg)
 
 One of his latest roles (a rather quick one tho, at least for now) is Hownland Reed, in Game of Thrones. He acts side by side with the young Raegar Targaryen. Take a look
 

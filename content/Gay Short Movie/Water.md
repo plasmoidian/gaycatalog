@@ -12,6 +12,6 @@ I bet it happened to everyone. I do not want to spoiler and reveal anything of t
 
 Before I let you watch this amazing short film, let me mention that I'm in love with [Aristeo Mora](https://www.facebook.com/Aristeofono), the protagonist. He is so gentle, so cute.
 
-![Aristeo Mora in Water](../../theme/img/Aristeo.jpg)
+![Aristeo Mora in Water]({filename}/uploads/Aristeo.jpg)
 
 If you enjoyed [Water, you can join it's official community on facebook](https://www.facebook.com/aguacortometraje/).

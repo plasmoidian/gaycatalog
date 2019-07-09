@@ -14,7 +14,7 @@ It was recorded in [Joshua Tree National Park](https://en.wikipedia.org/wiki/Jos
 
 Produced by Five one Five Entertainment.
 
-![WALK gay short film was recorded on Joshua Tree park]({filename}/images/joshuatree.jpg)
+![WALK gay short film was recorded on Joshua Tree park]({filename}/uploads/joshuatree.jpg)
 
 Here's the synopsis provided by the production:
 

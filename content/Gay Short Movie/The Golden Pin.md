@@ -12,7 +12,7 @@ Here's the official plot:
 
 A young Vietnamese-Canadian swimmer finds himself struggling between the expectations of his family and the demands of his heart. His father wants him to marry soon, but his mother, haunted by a past romance, hopes her son will stand up for what he believes.
 
-![The Golden Pin gay short movie]({filename}/images/goldenpin.jpg)
+![The Golden Pin gay short movie]({filename}/uploads/goldenpin.jpg)
 
 Set in Canada’s multicultural milieu, Long, an only child, has kept his homosexuality a secret from his parents. Under pressure from his father to continue the family line, Long proposes to his long-time girlfriend Vanessa, much to the chagrin of Long's swim teammate Ryan, who confronts Long about his true feelings at their next swim practice. 
 

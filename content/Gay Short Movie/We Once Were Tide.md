@@ -10,6 +10,6 @@ A heart-breaking movie. While difficult to notice at first glance, this one is a
 
 You can read the official plot here:
 
-![Watch We once were tide Gay short movie]({filename}/images/weonceweretide.jpg)
+![Watch We once were tide Gay short movie]({filename}/uploads/weonceweretide.jpg)
 
  > Set on the Isle of Wight, the film tells the story of Anthony and Kyle,  and their last night together as Kyle moves away leaving Anthony to look  after his terminally ill mother. Poetic in nature, the film is  concerned with exploring the intimate and often unspoken moment in which  we give something special away. 

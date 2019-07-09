@@ -14,7 +14,7 @@ It's all about a young gay man finding his way through life and all the hard dis
 
 It is heart-warming to watch each scene blossom into situation that every one can relate to, and feel represented in a way.
 
-![Watch Get Real gay movie 1988]({filename}/images/getreal.png)
+![Watch Get Real gay movie 1988]({filename}/uploads/getreal.png)
 
 Here's the official plot:
 

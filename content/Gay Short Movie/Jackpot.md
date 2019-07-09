@@ -12,7 +12,7 @@ Jack Hoffman hears about a dozen magazines that are hidden in a trash can across
 
 Fun dialogues, totally worth watching!
 
-![Jackpot gay short film - The gay movie catalog]({filename}/images/jackpot.jpg)
+![Jackpot gay short film - The gay movie catalog]({filename}/uploads/jacpot22-gay-movie.jpg)
 
 
 

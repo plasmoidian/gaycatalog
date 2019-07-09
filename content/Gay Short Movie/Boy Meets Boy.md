@@ -12,7 +12,7 @@ Popular young actors Kim Hye Sung (High Kick) and Lee Hyun Jin (Glory of the Fam
 
 The two leads have no dialogue in the film, instead conveying puppy love through encounters and gazes. Ye Ji Won (Old Miss Diary) co-stars as a singing cupid who helps bring them together. 
 
-![Watch Gay Short Film Boy Meets Boy (2008)]({filename}/images/boymeetsboy.jpg)
+![Watch Gay Short Film Boy Meets Boy (2008)]({filename}/uploads/boymeetsboy.jpg)
 
 Boy Meets Boy was screened at the 2008 Pusan Film Festival, and also had a theatrical release in Korea, a rarity for short films. The DVD includes Boy Meets Boy Director’s Cut, audio commentary, music videos, trailer, animated gay dating tips, and other special features.
 

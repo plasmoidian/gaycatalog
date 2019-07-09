@@ -12,7 +12,6 @@ This is pretty much the story of this lovely short film that will set you imagin
 
 Swimsuit is about 2 boys that connect to each other.
 
-![Swimsuit gay short film - The gay movie catalog]({filename}/images/swimsuit2.jpg)
 
  
 

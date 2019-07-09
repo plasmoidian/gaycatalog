@@ -14,6 +14,6 @@ The scenarios, setting, relationships (particularly with his agent) and story ar
 
 The film's powerful message - 'Be Yourself' - will resonate with anyone, particularly those who have ever felt on the fringes of a group or activity. 
 
-![Chris Mason in gay short movie Wonderkid]({filename}/images/wonderkid2.jpg)
+![Chris Mason in gay short movie Wonderkid]({filename}/uploads/wonderkid2.jpg)
 
 The wonderful review written above was posted to IMDB by [John Holmes](http://www.imdb.com/user/ur1547197/?ref_=tt_urv). It describes the movie so perfectly that I thought it was worth using it here.

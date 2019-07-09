@@ -15,7 +15,7 @@ An interesting look at the young bisexual life of 90's France.
 
 This movie was written and produced by François Ozon, whose filmography is huge and carries many awards.
 
-![A Summer Dress gay short film - The gay movie catalog]({filename}/images/summerdress.jpg)
+![A Summer Dress gay short film - The gay movie catalog]({filename}/uploads/summerdress.jpg)
 
 <iframe frameborder="0" width="480" height="270" src="//www.dailymotion.com/embed/video/xczokl" allowfullscreen allow="autoplay"></iframe>
 

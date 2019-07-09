@@ -14,7 +14,7 @@ So, I decided to share the official plot:
 
 > When Zach brings along his thirsty, nosey roommate, Eduardo, to his basketball pick-up game with his straight best friend.. the outcome of the game takes an unexpected turn when Zach has to confront which team he is really on. 
 
-![SPORTS! gay short film - The gay movie catalog]({filename}/images/SPORTS.jpg)
+![SPORTS! gay short film - The gay movie catalog]({filename}/uploads/SPORTS2.png)
 
 [You can follow Kyle's Instagram here: @kylekrieger](https://www.instagram.com/kylekrieger/).
 

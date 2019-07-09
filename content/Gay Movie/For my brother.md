@@ -20,7 +20,7 @@ Maybe you need to do some thinking as well. And this is what made me share the m
 
 ### About the actors
 
-![Elias from For my brother movie - The gay movie catalog - Elias Munk]({filename}/images/elias.jpg)
+![Elias from For my brother movie - The gay movie catalog - Elias Munk]({filename}/uploads/elias.jpg)
 
 The older brother, Aske (17), is played by Elias Munk, picture above. Elias has acted in several movies and TV shows in Denmark. Quite famous.
 
