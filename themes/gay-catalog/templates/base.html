@@ -19,7 +19,7 @@
 </head>
 <body>
   <section> <!-- start of header -->
-    <div class="container vertical-line">
+    <div class="container">
       <div class="horizontal-line"> <!-- search, logo, social-->
         <div></div> <!-- insert search icon here -->
         <div><span class="logo">The Gay Movie Catalog</span></div>
@@ -30,18 +30,20 @@
   <section> <!-- menu -->
     <div class="container">
       <nav class="level menu">
-        <p class="level-item has-text-centered">
-          <a href="{{ SITEURL }}" {% if page_name == 'index' %}class="active"{% endif %}>Home</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a href="{{ SITEURL }}/category/gay-short-movie/">Gay Short Movies</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a href="{{ SITEURL }}/category/gay-movie/">Gay Movies</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a href="{{ SITEURL }}/category/blog/">Blog</a>
-        </p>
+        <div>
+          <p class="level-item has-text-centered">
+            <a href="{{ SITEURL }}" {% if page_name == 'index' %}class="active"{% endif %}>Home</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a href="{{ SITEURL }}/category/gay-short-movie/">Gay Short Movies</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a href="{{ SITEURL }}/category/gay-movie/">Gay Movies</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a href="{{ SITEURL }}/category/blog/">Blog</a>
+          </p>
+        </div>
       </nav>
     </div>
   </section> <!-- end of menu section -->
