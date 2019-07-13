@@ -9,8 +9,7 @@
     <meta name="p:domain_verify" content="72e5f43ea2d81775848efe175f37fccf"/>
     <title>The Gay Movie Catalog</title>
     {% endblock meta %}
-    <link href="https://fonts.googleapis.com/css?family=Anton|Playfair+Display" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Raleway:400,400i,700,700i&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/base.css" type="text/css" />
     <script type="text/javascript">
         window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
@@ -19,17 +18,36 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
+  <section> <!-- start of header -->
+    <div class="container vertical-line">
+      <div class="horizontal-line"> <!-- search, logo, social-->
+        <div></div> <!-- insert search icon here -->
+        <div><span class="logo">The Gay Movie Catalog</span></div>
+        <div></div> <!-- insert social media if any -->
+      </div><!-- end of search, logo, social-->
+    </div>
+  </section> <!-- end of header -->
+  <section> <!-- menu -->
     <div class="container">
-        {# include 'partials/nav.html' #}
-        <div class="columns">
-            <div class="column is-one-fifth">
-                {% include 'partials/sidebar.html' %}
-            </div>
-            <div class="column body-shadow">
-                {% include 'partials/hero.html' %}
-                {% block content %}{% endblock content %}
-            </div>
-        </div>
+      <nav class="level menu">
+        <p class="level-item has-text-centered">
+          <a href="{{ SITEURL }}" {% if page_name == 'index' %}class="active"{% endif %}>Home</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a href="{{ SITEURL }}/category/gay-short-movie/">Gay Short Movies</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a href="{{ SITEURL }}/category/gay-movie/">Gay Movies</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a href="{{ SITEURL }}/category/blog/">Blog</a>
+        </p>
+      </nav>
+    </div>
+  </section> <!-- end of menu section -->
+    <div class="container">
+      {% include 'partials/hero.html' %}
+      {% block content %}{% endblock content %}
     </div>
     {% include 'partials/footer.html' %}
 

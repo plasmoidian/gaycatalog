@@ -18,7 +18,7 @@ Will he come to a truce with himself?
 
 Jonas -the adult one, at least - is played by Félix Maritaud, who also played the main role in the movie [Sauvage](https://www.imdb.com/title/tt8307082/mediaviewer/rm1352614400), also from 2018. A nice, hot actor in 2 gays movies totally worth watching.
 
-![Félix Maritaud: The hottest young actor on the planet](/content/images/boys-jonas-2018-felix-maritaud.jpg "Félix Maritaud")
+![Félix Maritaud: The hottest young actor on the planet](/content/uploads/boys-jonas-2018-felix-maritaud.jpg "Félix Maritaud")
 
 You can watch Jonas below, but keep in mind it is a french production for television, so there are no subtitles in the original youtube video. Of course you can use the translate caption feature.
 

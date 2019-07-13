@@ -14,13 +14,14 @@ a:hover {
   padding: 1.25em 1.5em; }
 
 *, ::before, ::after {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Anton", sans; }
+  font-family: "Montserrat", sans-serif; }
 
 body {
-  font-family: "Playfair Display", serif;
+  font-family: "Raleway", sans-serif;
   /*padding: 10px 5px 0 5px;*/
   background-image: url("../img/bg.png");
   background-repeat: repeat;
@@ -89,7 +90,8 @@ body {
   .post-type-text h1 > a {
     color: white;
     text-transform: uppercase;
-    text-decoration: underline solid white;
+    -webkit-text-decoration: underline solid white;
+            text-decoration: underline solid white;
     font-family: 'Anton'; }
 
 .post-type-text > div:nth-child(2) {
@@ -125,11 +127,13 @@ article p {
     color: #373737;
     background: #e5ba0e;
     padding: 3px;
+    -webkit-transition: all 150ms ease-in;
     transition: all 150ms ease-in; }
   article p a:hover {
     color: #373737;
     background: #c0392b;
     padding: 3px;
+    -webkit-transition: all 150ms ease-out;
     transition: all 150ms ease-out; }
 
 .category-tag {
@@ -157,11 +161,19 @@ iframe {
   margin-bottom: 10px; }
 
 .share {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 180px;
-  flex-wrap: wrap;
-  flex-direction: row; }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
   .share a {
     color: #111;
     padding: 15px;
@@ -202,35 +214,20 @@ nav.pagination {
   color: #111; }
 
 .body-shadow {
-  box-shadow: 0px 30px 30px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 30px 30px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 30px 30px 5px rgba(0, 0, 0, 0.2);
   background-color: #fff; }
 
 /* logo now applies to the logo itself */
 .logo {
   width: 100%;
-  height: auto; }
+  height: auto;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 600; }
 
 .new-sidebar {
   margin-right: -12px; }
-
-.links-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; }
-
-.links-menu a {
-  padding: 4px 15px;
-  margin: 5px 0;
-  font-family: Anton;
-  font-size: 2rem;
-  text-align: right; }
-
-.links-menu a:hover {
-  background-color: #f1c40f;
-  color: black; }
-
-.links-menu a.active {
-  background-color: #f1c40f; }
 
 footer {
   background: #373d42;
@@ -241,5 +238,8 @@ footer {
   width: 100%; }
   footer a {
     color: #e5ba0e; }
+
+.horizontal-line {
+  margin-bottom: 2px solid #027e6c; }
 
 /*# sourceMappingURL=base.css.map */

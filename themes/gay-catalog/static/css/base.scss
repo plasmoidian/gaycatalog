@@ -19,8 +19,8 @@ a:hover {
     border-left: 5px solid $fontcolor2;
     padding: 1.25em 1.5em;
 }
-$head-font: 'Anton', sans;
-$paragraph-font: 'Playfair Display', serif;
+$head-font: 'Montserrat', sans-serif;
+$paragraph-font: 'Raleway', sans-serif;
 $yellow: #ffde00;
 *, ::before, ::after {
     box-sizing: border-box;
@@ -251,31 +251,17 @@ nav.pagination {
 
 // sidebar
 /* logo now applies to the logo itself */
+
+// new code, audit before publishing <<<<<<<<
 .logo {
   width: 100%; 
   height: auto;
+  font-family: $paragraph-font;
+  font-size: 2rem;
+  font-weight: 600;
 }
 .new-sidebar {
   margin-right: -12px;
-}
-.links-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-.links-menu a {
-  padding: 4px 15px;
-  margin: 5px 0;
-  font-family: Anton;
-  font-size: 2rem;
-  text-align: right;
-}
-.links-menu a:hover {
-  background-color: #f1c40f;
-  color: black;
-}
-.links-menu a.active {
-  background-color: #f1c40f;
 }
 footer {
   background: #373d42;
@@ -287,4 +273,7 @@ footer {
   a {
     color: #e5ba0e;
   }
+}
+.horizontal-line {
+  margin-bottom: 2px solid #027e6c
 }
