@@ -65,8 +65,8 @@ body {
 .post a {
   color: #111;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.25rem;
-  letter-spacing: -0.75px; }
+  letter-spacing: -0.75px;
+  font-weight: 600; }
 .post a:hover {
   color: #04e2c2; }
 
@@ -94,6 +94,8 @@ body {
 .post-summary p {
   margin-top: 10px;
   padding-top: 10px; }
+.post-summary a {
+  font-size: 1.5rem; }
 
 .overlay {
   width: 100%;

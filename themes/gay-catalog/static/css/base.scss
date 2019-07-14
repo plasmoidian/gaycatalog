@@ -82,8 +82,8 @@ body {
   a {
     color: $fontcolor2;
     font-family: $head-font;
-    font-size: 1.25rem;
     letter-spacing: -0.75px;
+    font-weight: 600;
   }
   a:hover {
     color: $fontcolor3;
@@ -116,6 +116,9 @@ body {
   p {
     margin-top: 10px;
     padding-top: 10px;
+  }
+  a {
+    font-size: 1.5rem
   }
 }
 .overlay {
