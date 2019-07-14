@@ -65,13 +65,15 @@ body {
   width: 25%;
   padding: 0 10px; }
 
-.post a {
-  color: #111;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: -0.75px;
-  font-weight: 600; }
-.post a:hover {
-  color: #04e2c2; }
+.post {
+  margin-bottom: 40px; }
+  .post a {
+    color: #111;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -0.75px;
+    font-weight: 600; }
+  .post a:hover {
+    color: #04e2c2; }
 
 .post-type-text {
   color: white;
@@ -94,11 +96,13 @@ body {
   z-index: 1;
   position: relative; }
 
-.post-summary p {
-  margin-top: 10px;
-  padding-top: 10px; }
-.post-summary a {
-  font-size: 1.5rem; }
+.post-summary {
+  margin-top: 14px; }
+  .post-summary p {
+    margin-top: 10px;
+    padding-top: 10px; }
+  .post-summary a {
+    font-size: 1.5rem; }
 
 .overlay {
   width: 100%;
