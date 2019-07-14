@@ -258,7 +258,8 @@ nav.pagination {
   height: auto;
   font-family: $paragraph-font;
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 300;
+  text-transform: lowercase;
 }
 .new-sidebar {
   margin-right: -12px;
