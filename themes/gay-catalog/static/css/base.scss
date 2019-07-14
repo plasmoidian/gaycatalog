@@ -273,7 +273,11 @@ footer {
   a {
     color: #e5ba0e;
   }
-}
+} 
 .horizontal-line {
   margin-bottom: 2px solid #027e6c
+}
+.menu {
+  display: flex;
+  justify-content: center;
 }
