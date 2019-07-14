@@ -45,12 +45,12 @@
       </nav>
     </div>
   </section> <!-- end of menu section -->
+  <section> <!-- body section -->
     <div class="container">
-      {% include 'partials/hero.html' %}
       {% block content %}{% endblock content %}
     </div>
+  </section><!-- end of body section-->
     {% include 'partials/footer.html' %}
-
     <script>
         if (window.netlifyIdentity) {
           window.netlifyIdentity.on("init", user => {
