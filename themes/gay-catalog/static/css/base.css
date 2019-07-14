@@ -223,7 +223,7 @@ nav.pagination {
   width: 100%;
   height: auto;
   font-family: "Raleway", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600; }
 
 .new-sidebar {
@@ -240,7 +240,7 @@ footer {
     color: #e5ba0e; }
 
 .horizontal-line {
-  border-bottom: 2px solid #027e6c; }
+  border-bottom: 1px solid #a5c5c1; }
 
 .menu {
   display: -webkit-box;
@@ -253,7 +253,16 @@ footer {
   .menu span {
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 2px;
-    padding: 12px 16px; }
+    padding: 12px 16px;
+    font-size: 0.9rem; }
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0; }
 
 /*# sourceMappingURL=base.css.map */

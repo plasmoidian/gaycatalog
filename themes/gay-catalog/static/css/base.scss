@@ -257,7 +257,7 @@ nav.pagination {
   width: 100%; 
   height: auto;
   font-family: $paragraph-font;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 .new-sidebar {
@@ -275,7 +275,7 @@ footer {
   }
 } 
 .horizontal-line {
-  border-bottom: 2px solid #027e6c;
+  border-bottom: 1px solid #a5c5c1;
 }
 .menu {
   display: flex;
@@ -284,7 +284,12 @@ footer {
   span {
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 2px;
     padding: 12px 16px;
+    font-size: 0.9rem;
   }
+}
+.main-header {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
 }
