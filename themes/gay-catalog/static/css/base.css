@@ -22,9 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   font-family: "Raleway", sans-serif;
-  /*padding: 10px 5px 0 5px;*/
-  background-image: url("../img/bg.png");
-  background-repeat: repeat;
+  padding: 10px 5px 0 5px;
   color: #111; }
 
 #grid[data-columns]::before {
