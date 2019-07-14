@@ -248,6 +248,8 @@ footer {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; }
 
 /*# sourceMappingURL=base.css.map */
