@@ -62,18 +62,13 @@ body {
   width: 25%;
   padding: 0 10px; }
 
-.size-1of3:nth-child(1) {
-  padding-left: 0; }
-
-.size-1of3:nth-child(3) {
-  padding-right: 0; }
-
 .post a {
-  color: #111; }
+  color: #111;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: -0.75px; }
 .post a:hover {
   color: #04e2c2; }
-.post h1 {
-  text-transform: uppercase; }
 
 .post-type-text {
   color: white;
@@ -89,17 +84,14 @@ body {
     position: relative; }
   .post-type-text h1 > a {
     color: white;
-    text-transform: uppercase;
     -webkit-text-decoration: underline solid white;
-            text-decoration: underline solid white;
-    font-family: 'Anton'; }
+            text-decoration: underline solid white; }
 
 .post-type-text > div:nth-child(2) {
   z-index: 1;
   position: relative; }
 
 .post-summary p {
-  border-top: 2px #333 solid;
   margin-top: 10px;
   padding-top: 10px; }
 
