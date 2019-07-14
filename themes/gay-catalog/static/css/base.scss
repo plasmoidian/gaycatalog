@@ -37,7 +37,7 @@ body {
 }
 //GRID
 #grid[data-columns]::before {
-	content: '3 .column.size-1of3';
+	content: '4 .column.size-1of4';
 }
 .column { float: left; }
 @media screen and (max-width: 480px){
