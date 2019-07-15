@@ -170,6 +170,8 @@ nav.pagination {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: -1px; }
+  .logo :hover {
+    color: #727f88; }
 
 .new-sidebar {
   margin-right: -12px; }
@@ -263,5 +265,14 @@ footer {
     margin-bottom: 1rem;
     background-color: transparent;
     background-image: none; }
+
+.navbar-link {
+  color: white;
+  font-weight: 600; }
+  .navbar-link :hover {
+    color: #727f88; }
+
+.navbar-dropdown {
+  background-color: #111; }
 
 /*# sourceMappingURL=base.css.map */

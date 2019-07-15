@@ -196,6 +196,9 @@ nav.pagination {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: -1px;
+  :hover {
+    color:#727f88;
+  }
 }
 .new-sidebar {
   margin-right: -12px;
@@ -286,4 +289,14 @@ footer {
   }
   color: white;
   text-transform: uppercase;
+}
+.navbar-link {
+  color: white;
+  font-weight: 600;
+  :hover {
+    color: #727f88;
+  }
+}
+.navbar-dropdown {
+  background-color: #111;
 }
