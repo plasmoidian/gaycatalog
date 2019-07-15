@@ -13,8 +13,8 @@
                 <h1 class="is-size-5"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
                 <p>{{ article.summary|striptags|truncate(150) }}</p>
                 <div class="tag-read-more">
-                    <a href="{{ SITEURL }}/{{ article.category.url|lower }}">{{ article.category }}</a>
-                    <a href="{{ SITEURL }}/{{ article.url }}">Read More</a>
+                    <div><a href="{{ SITEURL }}/{{ article.category.url|lower }}">{{ article.category }}</a></div>
+                    <div><a href="{{ SITEURL }}/{{ article.url }}">Read More</a></div>
                 </div>
             </div>
         </div>
