@@ -14,7 +14,7 @@
                 <p>{{ article.summary|striptags|truncate(150) }}</p>
                 <div class="tag-read-more">
                     <div><a href="{{ SITEURL }}/{{ article.category.url|lower }}">{{ article.category }}</a></div>
-                    <div><a href="{{ SITEURL }}/{{ article.url }}">Read More</a></div>
+                    <div><a href="{{ SITEURL }}/{{ article.url }}" class="button-outline">Read More</a></div>
                 </div>
             </div>
         </div>

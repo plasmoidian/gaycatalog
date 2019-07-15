@@ -261,6 +261,7 @@ footer {
     font-family: $head-font;
     letter-spacing: -0.75px;
     font-weight: 600;
+    text-transform: uppercase;
   }
   a:hover {
     color: $fontcolor3;
@@ -273,4 +274,8 @@ footer {
   a {
     font-size: 0.8rem;
   }
+}
+.button-outline {
+  padding: 10px;
+  border: white solid 1px;
 }

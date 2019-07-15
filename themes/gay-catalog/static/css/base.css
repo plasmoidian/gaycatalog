@@ -237,7 +237,8 @@ footer {
     color: white;
     font-family: "Montserrat", sans-serif;
     letter-spacing: -0.75px;
-    font-weight: 600; }
+    font-weight: 600;
+    text-transform: uppercase; }
   .post a:hover {
     color: #04e2c2; }
 
@@ -251,5 +252,9 @@ footer {
   margin-top: 1rem; }
   .tag-read-more a {
     font-size: 0.8rem; }
+
+.button-outline {
+  padding: 10px;
+  border: white solid 1px; }
 
 /*# sourceMappingURL=base.css.map */
