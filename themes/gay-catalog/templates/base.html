@@ -20,50 +20,32 @@
 <body>
   <section> <!-- start of header -->
     <div class="container">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <nav class="navbar is-transparant" role="navigation" aria-label="main navigation">
           <div class="navbar-brand">
             <a class="navbar-item" href="https://bulma.io">
               <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: Free, open source, & modern CSS framework based on Flexbox" width="112" height="28">
             </a>
           </div>
           <div class="navbar-end">
-              <div class="navbar-item has-dropdown is-active">
+              <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
                   Categories
                 </a>
         
                 <div class="navbar-dropdown is-right">
-                  <a class="navbar-item">
+                  <a class="navbar-item" href="{{ SITEURL }}/category/blog/">
                     Blog
                   </a>
-                  <a class="navbar-item">
+                  <a class="navbar-item" href="{{ SITEURL }}/category/gay-short-movie/">
                     Short Movies
                   </a>
-                  <a class="navbar-item">
+                  <a class="navbar-item" href="{{ SITEURL }}/category/gay-movie/">
                     Movies
                   </a>
                 </div>
         </nav>
     </div>
   </section> <!-- end of header -->
-  <section> <!-- menu -->
-    <div class="container">
-      <nav class="menu">
-        <span class="has-text-centered">
-          <a href="{{ SITEURL }}" {% if page_name == 'index' %}class="active"{% endif %}>Home</a>
-        </span>
-        <span class="has-text-centered">
-          <a href="{{ SITEURL }}/category/gay-short-movie/">Gay Short Movies</a>
-        </span>
-        <span class="has-text-centered">
-          <a href="{{ SITEURL }}/category/gay-movie/">Gay Movies</a>
-        </span>
-        <span class="has-text-centered">
-          <a href="{{ SITEURL }}/category/blog/">Blog</a>
-        </span>
-      </nav>
-    </div>
-  </section> <!-- end of menu section -->
   <section> <!-- content section -->
     <div class="container">
       {% block content %}{% endblock content %}
