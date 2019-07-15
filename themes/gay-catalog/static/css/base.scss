@@ -14,11 +14,7 @@ a:hover {
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
     color: white;
 }
-.content blockquote {
-    background-color: $fontcolor3;
-    border-left: 5px solid $fontcolor2;
-    padding: 1.25em 1.5em;
-}
+
 $head-font: 'Montserrat', sans-serif;
 $paragraph-font: 'Raleway', sans-serif;
 $yellow: #ffde00;
@@ -310,7 +306,23 @@ a.navbar-link:hover, a.navbar-item:hover {
 .navbar.is-transparent .navbar-dropdown a.navbar-item:focus, .navbar.is-transparent .navbar-dropdown a.navbar-item:hover  {
   color: #727f88;
 }
-table {
+.table {
   background: transparent;
   color: #727f88;
+}
+.content blockquote {
+  background-color: transparent;
+  border-left: none;
+  padding: 1.25em 1.5em;
+  display: block;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
