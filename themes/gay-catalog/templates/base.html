@@ -20,11 +20,30 @@
 <body>
   <section> <!-- start of header -->
     <div class="container">
-      <div class=" main-header horizontal-line"> <!-- search, logo, social-->
-        <div></div> <!-- insert search icon here -->
-        <div><span class="logo">The Gay Movie Catalog</span></div>
-        <div></div> <!-- insert social media if any -->
-      </div><!-- end of search, logo, social-->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+              <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: Free, open source, & modern CSS framework based on Flexbox" width="112" height="28">
+            </a>
+          </div>
+          <div class="navbar-end">
+              <div class="navbar-item has-dropdown is-active">
+                <a class="navbar-link">
+                  Categories
+                </a>
+        
+                <div class="navbar-dropdown is-right">
+                  <a class="navbar-item">
+                    Blog
+                  </a>
+                  <a class="navbar-item">
+                    Short Movies
+                  </a>
+                  <a class="navbar-item">
+                    Movies
+                  </a>
+                </div>
+        </nav>
     </div>
   </section> <!-- end of header -->
   <section> <!-- menu -->
