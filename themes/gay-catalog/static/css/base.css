@@ -85,6 +85,8 @@ article {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
+  article h1 {
+    color: white; }
   article p {
     line-height: 1.5;
     margin-bottom: 1rem; }
