@@ -12,7 +12,7 @@ a:hover {
   color:white;
 }
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
-    color: $fontcolor1;
+    color: white;
 }
 .content blockquote {
     background-color: $fontcolor3;
@@ -95,10 +95,10 @@ article {
   background-color: #000000;
   color: #727f88;
   padding: 2rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  max-width: 960px;
   h1 {
     color: white;
   }
@@ -308,5 +308,9 @@ a.navbar-link:hover, a.navbar-item:hover {
   background-color: #111;
 }
 .navbar.is-transparent .navbar-dropdown a.navbar-item:focus, .navbar.is-transparent .navbar-dropdown a.navbar-item:hover  {
+  color: #727f88;
+}
+table {
+  background: transparent;
   color: #727f88;
 }

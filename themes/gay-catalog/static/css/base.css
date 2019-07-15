@@ -6,7 +6,7 @@ a:hover {
   color: white; }
 
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
-  color: #111; }
+  color: white; }
 
 .content blockquote {
   background-color: #04e2c2;
@@ -76,15 +76,15 @@ article {
   background-color: #000000;
   color: #727f88;
   padding: 2rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  max-width: 960px; }
   article h1 {
     color: white; }
   article p {
@@ -290,6 +290,10 @@ a.navbar-link:hover, a.navbar-item:hover {
   background-color: #111; }
 
 .navbar.is-transparent .navbar-dropdown a.navbar-item:focus, .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
+  color: #727f88; }
+
+table {
+  background: transparent;
   color: #727f88; }
 
 /*# sourceMappingURL=base.css.map */
