@@ -190,13 +190,12 @@ nav.pagination {
 
 // new code, audit before publishing <<<<<<<<
 .logo {
-  width: 100%; 
-  height: auto;
-  font-family: $paragraph-font;
-  font-size: 3rem;
-  font-weight: 300;
-  text-transform: lowercase;
+  font-size: 2rem;
   color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -1px;
 }
 .new-sidebar {
   margin-right: -12px;
@@ -285,4 +284,6 @@ footer {
   background-color: transparent;
   background-image: none;
   }
+  color: white;
+  text-transform: uppercase;
 }

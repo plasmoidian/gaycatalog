@@ -164,13 +164,12 @@ nav.pagination {
 
 /* logo now applies to the logo itself */
 .logo {
-  width: 100%;
-  height: auto;
-  font-family: "Raleway", sans-serif;
-  font-size: 3rem;
-  font-weight: 300;
-  text-transform: lowercase;
-  color: white; }
+  font-size: 2rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -1px; }
 
 .new-sidebar {
   margin-right: -12px; }
@@ -257,9 +256,12 @@ footer {
   padding: 10px;
   border: white solid 1px; }
 
-.navbar.is-transparent {
-  margin-bottom: 1rem;
-  background-color: transparent;
-  background-image: none; }
+.navbar {
+  color: white;
+  text-transform: uppercase; }
+  .navbar.is-transparent {
+    margin-bottom: 1rem;
+    background-color: transparent;
+    background-image: none; }
 
 /*# sourceMappingURL=base.css.map */
