@@ -148,7 +148,6 @@ iframe {
     color: $yellow;
   }
   span {
-  font-family: Anton;
   text-transform: uppercase;
   font-size: 24px;
   letter-spacing: 2.5px;
@@ -160,21 +159,17 @@ iframe {
   width: 24px;
 }
 nav.pagination {
-  font-family: Anton;
+  font-family: $head-font;
 }
 .pagination-link {
-  color: $fontcolor2;
+  color: white;
   min-width: 2.25em;
-  border: $fontcolor2 solid 2px;  
+  border: white solid 2px;  
 }
 .pagination-link, .pagination-next, .pagination-previous {
-    border-color: $fontcolor2;
-    color: $fontcolor2;
+    border-color: white;
+    color: white;
     min-width: 2.25em;
-}
-.table {
-  background-color: $bgcolor;
-  color: $fontcolor1;
 }
 
 // new classes
