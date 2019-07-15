@@ -266,5 +266,8 @@ footer {
 .tag-read-more {
   display: flex;
   align-content: space-between;
-  font-size: 0.8rem;
+  a {
+    font-size: 0.8rem;
+
+  }
 }
