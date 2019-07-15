@@ -300,3 +300,6 @@ a.navbar-link:hover, a.navbar-item:hover {
 .navbar-dropdown {
   background-color: #111;
 }
+.navbar.is-transparent .navbar-dropdown a.navbar-item:focus, .navbar.is-transparent .navbar-dropdown a.navbar-item:hover  {
+  color: #727f88;
+}
