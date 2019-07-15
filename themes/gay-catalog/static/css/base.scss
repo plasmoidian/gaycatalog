@@ -6,10 +6,10 @@ $fontcolor3: lighten(#027e6c, 20%);
 
 
 a {
-  color:$fontcolor2;
+  color: #727f88;
 }
 a:hover {
-  color:$fontcolor3;
+  color:white;
 }
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
     color: $fontcolor1;
@@ -196,6 +196,7 @@ nav.pagination {
   font-size: 3rem;
   font-weight: 300;
   text-transform: lowercase;
+  color: white;
 }
 .new-sidebar {
   margin-right: -12px;
@@ -261,4 +262,9 @@ footer {
   a:hover {
     color: $fontcolor3;
   }
+}
+.tag-read-more {
+  display: flex;
+  align-content: space-between;
+  font-size: 0.8rem;
 }

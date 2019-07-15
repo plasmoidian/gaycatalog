@@ -1,9 +1,9 @@
 @charset "UTF-8";
 a {
-  color: #111; }
+  color: #727f88; }
 
 a:hover {
-  color: #04e2c2; }
+  color: white; }
 
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
   color: #111; }
@@ -169,7 +169,8 @@ nav.pagination {
   font-family: "Raleway", sans-serif;
   font-size: 3rem;
   font-weight: 300;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+  color: white; }
 
 .new-sidebar {
   margin-right: -12px; }
@@ -236,5 +237,13 @@ footer {
     font-weight: 600; }
   .post a:hover {
     color: #04e2c2; }
+
+.tag-read-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  font-size: 0.8rem; }
 
 /*# sourceMappingURL=base.css.map */
