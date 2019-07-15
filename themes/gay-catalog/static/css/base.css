@@ -173,14 +173,17 @@ a.logo:hover {
   margin-right: -12px; }
 
 footer {
-  background: #373d42;
-  color: white;
+  background: #000000;
+  color: #727f88;
   margin-top: 12px;
   padding: 70px 0;
   display: inline-block;
   width: 100%; }
   footer a {
-    color: #e5ba0e; }
+    color: white; }
+
+footer a:hover {
+  color: #04e2c2; }
 
 .horizontal-line {
   border-bottom: 1px solid #a5c5c1; }
