@@ -258,6 +258,7 @@ footer {
   border: white solid 1px; }
 
 .navbar.is-transparent {
+  margin-bottom: 1rem;
   background-color: transparent;
   background-image: none; }
 
