@@ -23,7 +23,6 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Raleway", sans-serif;
   padding: 10px 5px 0 5px;
-  color: #111;
   background-color: #141415; }
 
 #grid[data-columns]::before {
@@ -73,21 +72,27 @@ body {
 .mb-10 {
   margin-bottom: 10px; }
 
-article p {
-  line-height: 1.5;
-  margin-bottom: 1rem; }
-  article p a {
-    color: #373737;
-    background: #e5ba0e;
-    padding: 3px;
-    -webkit-transition: all 150ms ease-in;
-    transition: all 150ms ease-in; }
-  article p a:hover {
-    color: #373737;
-    background: #c0392b;
-    padding: 3px;
-    -webkit-transition: all 150ms ease-out;
-    transition: all 150ms ease-out; }
+article {
+  background-color: #000000;
+  color: #727f88;
+  padding: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem; }
+  article p {
+    line-height: 1.5;
+    margin-bottom: 1rem; }
+    article p a {
+      color: #373737;
+      background: #e5ba0e;
+      padding: 3px;
+      -webkit-transition: all 150ms ease-in;
+      transition: all 150ms ease-in; }
+    article p a:hover {
+      color: #373737;
+      background: #c0392b;
+      padding: 3px;
+      -webkit-transition: all 150ms ease-out;
+      transition: all 150ms ease-out; }
 
 .width-is-64 {
   width: 64px; }

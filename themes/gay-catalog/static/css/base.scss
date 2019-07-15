@@ -31,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: $paragraph-font;
   padding: 10px 5px 0 5px;
-  color: $fontcolor1;
   background-color: #141415;
 }
 //GRID
@@ -93,6 +92,11 @@ body {
   margin-bottom: 10px;
 }
 article {
+  background-color: #000000;
+  color: #727f88;
+  padding: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   p {
     line-height: 1.5;
     margin-bottom: 1rem;

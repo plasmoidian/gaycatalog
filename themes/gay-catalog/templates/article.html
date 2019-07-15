@@ -18,41 +18,39 @@
     <article>
         <div class="columns">
             <div class="column is-one-third">
-                {% if article.post_type == 'text' %}
-                    {% include 'partials/sidebarloop.html' %}
+                {% if article.featured_image %}
+                    <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.featured_image|e }}' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})" ></img>
                 {% else %}
-                    {% if article.featured_image %}
-                        <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.featured_image|e }}' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})" ></img>
-                    {% else %}
-                        <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.title|e }}.jpg' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
-                    {% endif %}
-                    <table class="table">
-                        {% if article.original %}
-                        <tr>
-                            <td>Original Title:</td>
-                            <td>{{ article.original }}</td>
-                        </tr>
-                        {% endif %}
-                        {% if article.country %}
-                        <tr>
-                            <td>Country:</td>
-                            <td>{{ article.country }}</td>
-                        </tr>
-                        {% endif %}
-                        {% if article.year %}
-                        <tr>
-                            <td>Year:</td>
-                            <td>{{ article.year }}</td>
-                        </tr>
-                        {% endif %}  
-                        {% if article.featuring %}
-                        <tr>
-                            <td>Cast:</td>
-                            <td>{{ article.featuring }}</td>
-                        </tr>
-                        {% endif %}                 
-                    </table>
+                    <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.title|e }}.jpg' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
                 {% endif %}
+            </div>
+            <div class="column is-two-thirds">
+                <table class="table">
+                    {% if article.original %}
+                    <tr>
+                        <td>Original Title:</td>
+                        <td>{{ article.original }}</td>
+                    </tr>
+                    {% endif %}
+                    {% if article.country %}
+                    <tr>
+                        <td>Country:</td>
+                        <td>{{ article.country }}</td>
+                    </tr>
+                    {% endif %}
+                    {% if article.year %}
+                    <tr>
+                        <td>Year:</td>
+                        <td>{{ article.year }}</td>
+                    </tr>
+                    {% endif %}  
+                    {% if article.featuring %}
+                    <tr>
+                        <td>Cast:</td>
+                        <td>{{ article.featuring }}</td>
+                    </tr>
+                    {% endif %}                 
+                </table>
             </div>
             <div class="column">
                 <div class="content">
