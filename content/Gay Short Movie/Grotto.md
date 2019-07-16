@@ -12,7 +12,7 @@ Will he leave those changes at another city or will they follow his heart?
 
 Find out:
 
-![Grotto gay short film - The gay movie catalog]({filename}/uploads/grotto.jpg)
+![Grotto gay short film - The gay movie catalog]({filename}/uploads/grotto2.jpg)
 
 
 

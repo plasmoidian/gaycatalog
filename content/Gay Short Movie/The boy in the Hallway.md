@@ -10,7 +10,7 @@ This short video you are going to watch is not actually a short film (?!). Someo
 
 I have no ideia where the name came from or who did it, but it's going to make sense when you see it.
 
-![El chico del pasillo - The boy in the hallway - The gay movie catalog]({filename}/images/cuentosdeverano.jpg)
+![El chico del pasillo - The boy in the hallway - The gay movie catalog]({filename}/images/boy-in-the-hallway-movie-gay.jpg)
 
 Now you might even consider to watch the full movie! But let me make it clear: this is not a gay movie! *Cuentos de verano* is about a writer who is dumped by his girl and this affects his writing style greatly. His overbearing agent decides to watch over him to not let this happen!
 
