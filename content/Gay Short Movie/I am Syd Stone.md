@@ -12,4 +12,4 @@ A heartbreaking reminder that taking the first step towards change requires cour
 
 This wonderful 10-minute short film was Directed by [Denis Theriault](http://www.imdb.com/name/nm2172589/), also known for *The gift giver*.
 
-![Gharrett Patrick Paon and Michael Gaty in I Am Syd Stone (2014)]({filename}/images/iamsyd.jpg)
+![Gharrett Patrick Paon and Michael Gaty in I Am Syd Stone (2014)]({filename}/uploads/iamsyd.jpg)

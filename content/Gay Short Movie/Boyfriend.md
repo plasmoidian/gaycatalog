@@ -16,7 +16,7 @@ In Kyle's own words:
 
 I wish I knew if Kyle got in the school he wanted. Hope so. I enjoyed the film.
 
-![Boyfriend 2017 gay short movie]({filename}/uploads/boyfriend.jpg)
+![Boyfriend 2017 gay short movie]({filename}/uploads/boyfriend-gay-short-movie.jpg)
 
 You can follow [Kyle's official youtube channel here](https://www.youtube.com/channel/UCPvNhOz1M7BegnrUAZFrvPw).
 
