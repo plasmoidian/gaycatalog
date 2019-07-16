@@ -5,7 +5,7 @@ year: '2016'
 country: Portugal
 featuring: 'Paul Hamy, Xelo Cagiao Teijo'
 date: 2019-07-16T19:50:55.852Z
-featured_image: /content/uploads/o_ornitologo.png
+featured_image: o_ornitologo.png
 ---
 This a blasphemous and homoerotic take on the life of Saint Anthony, brought to modern days. 
 
