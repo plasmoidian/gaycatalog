@@ -13,11 +13,11 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "date", name: "date", widget: "datetime"}
-      - {label: "Post Type", name: "post_type", default: "text"}
-      - {label: "Featured Image", name: "featured_image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "date", name: "date", widget: "datetime", required: false}
+      - {label: "Post Type", name: "post_type", default: "text", required: false}
+      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "Gay Movie" # Used in routes, e.g., /admin/collections/blog
     label: "Gay Movie" # Used in the UI
     folder: "content/Gay Movie" # The path to the folder where the documents are stored
@@ -25,14 +25,14 @@ collections:
     slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Original Title", name: "original", widget: "string"}
-      - {label: "Year", name: "year", widget: "string"}
-      - {label: "Country", name: "country", widget: "string"}
-      - {label: "Featuring", name: "featuring", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "featured_image", widget: "image"}
-      - {label: "Video", name: "youtube", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Original Title", name: "original", widget: "string", required: false}
+      - {label: "Year", name: "year", widget: "string", required: false}
+      - {label: "Country", name: "country", widget: "string", required: false}
+      - {label: "Featuring", name: "featuring", widget: "string", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Video", name: "youtube", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "Gay Short Movie" # Used in routes, e.g., /admin/collections/blog
     label: "Gay Short Movie" # Used in the UI
     folder: "content/Gay Short Movie" # The path to the folder where the documents are stored
@@ -40,11 +40,11 @@ collections:
     slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Original Title", name: "original", widget: "string"}
-      - {label: "Year", name: "year", widget: "string"}
-      - {label: "Country", name: "country", widget: "string"}
-      - {label: "Featuring", name: "featuring", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "featured_image", widget: "image"}
-      - {label: "Video", name: "youtube", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Original Title", name: "original", widget: "string", required: false}
+      - {label: "Year", name: "year", widget: "string", required: false}
+      - {label: "Country", name: "country", widget: "string", required: false}
+      - {label: "Featuring", name: "featuring", widget: "string", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Video", name: "youtube", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
