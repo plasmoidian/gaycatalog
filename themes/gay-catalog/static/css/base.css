@@ -128,9 +128,9 @@ iframe {
       -ms-flex-direction: row;
           flex-direction: row; }
   .share a {
-    color: #111;
+    color: white;
     padding: 15px;
-    border: 2px solid #111;
+    border: 2px solid white;
     margin: 10px;
     margin-right: 10px;
     margin-left: 10px;
@@ -140,10 +140,10 @@ iframe {
     color: #ffde00; }
   .share span {
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 2.5px;
     width: 100%;
-    color: #111; }
+    color: white; }
 
 .svg-inline--fa {
   width: 24px; }
