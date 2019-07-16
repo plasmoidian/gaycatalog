@@ -16,7 +16,7 @@ Based on the real story of two brother from Ohio.
 
 *Though a portrait of a real life situation, this movie has an incestuous connotation and might not be appropriate for all ages, cultures and countries.*
 
-![Watch Brotherly 2008 Gay short movie]({filename}/uploads/brotherly.jpg)
+![Watch Brotherly 2008 Gay short movie]({filename}/uploads/brotherly2.jpg)
 
 ### Official plot:
 

@@ -7,7 +7,7 @@ Since **Call me by your name** was announced Timothée Chalamet became everybody
 
 He had acted in several other movies before, though they weren't as big productions as Call me by your name. Of his previous works, Spinners certainly stands out for its quality and acting. And he is cute as hell, I should add. :D
 
-![Spinners (2014)](https://images-na.ssl-images-amazon.com/images/M/MV5BMDI0MDQ4MTQtYzA3My00MDE3LWI0YjMtOWUzMDg3YTcyYWU0XkEyXkFqcGdeQXVyMjk2OTQwMjg@._V1_SY1000_CR0,0,664,1000_AL_.jpg)
+![Spinners (2014)]({filename}/uploads/timothee-spinner.jpg)
 
 Here's the synopsis: 
 

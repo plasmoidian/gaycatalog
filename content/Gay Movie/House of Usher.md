@@ -23,7 +23,7 @@ Although he has acted in other movies, he became a personal trainer in Los Angel
 
 I don't know much about Michael Cardelle, but he sure is hot as f***!
 
-![Michael Cardelle, actor of House of Usher]({filename}/uploads/cardelle.jpg)
+![Michael Cardelle, actor of House of Usher]({filename}/uploads/michael-cardelli.jpg)
 
 Hope you guys enjoy the movie!
 
