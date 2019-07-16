@@ -27,6 +27,9 @@
                 {% endif %}
             </div>
         </div>
+        {% if article.post_type == 'text' %}
+            <!-- do nothing -->
+        {% else %}
         <div class="columns">
             <div class="column is-one-third">
                 {% if article.featured_image %}
@@ -64,6 +67,7 @@
                     </table>
                 </div>
             </div>
+        {% endif %}
             {% include 'partials/disqus.html' %}
             {% endblock content %}
     </article>
