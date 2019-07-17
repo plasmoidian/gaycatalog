@@ -5,7 +5,7 @@ year: '2016'
 country: United Kingdom
 featuring: 'Nigel Allen, Jack Hawkins'
 date: 2019-07-17T00:26:19.516Z
-featured_image: 'morning-is-broken.jpg'
+featured_image: morning-is-broken.jpg
 youtube: LHojUG0iIkE
 ---
 Isn't it terrifying? When a kiss is no longer a kiss, but the confirmation of a part of you so vehemently denied.
