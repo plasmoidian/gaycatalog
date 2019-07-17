@@ -7,7 +7,7 @@ featuring: 'Paul Hamy, Xelo Cagiao Teijo'
 date: 2019-07-16T19:50:55.852Z
 featured_image: o_ornitologo.png
 ---
-This a blasphemous and homoerotic take on the life of Saint Anthony, brought to modern days. 
+This is a blasphemous and homoerotic take on the life of Saint Anthony, brought to modern days. 
 
 Fernando (Paul Hamy) is out in nature camping on a riverbank birdwatching in Portugal. He gets into his yellow kayak watching all kinds of beautiful birds. He is so intent looking through his binoculars his kayak is swept into rapids and capsizes.
 
