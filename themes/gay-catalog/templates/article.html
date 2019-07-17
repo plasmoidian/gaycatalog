@@ -33,7 +33,7 @@
         <div class="columns">
             <div class="column is-one-third">
                 {% if article.featured_image %}
-                    <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.featured_image|e }}' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})" ></img>
+                    <img class="mb-10" src="{{ article.featured_image|e }}" alt="{{ article.category }} - {{ article.title }} ({{ article.year }})" ></img>
                     {% else %}
                     <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.title|e }}.jpg' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
                     {% endif %}
