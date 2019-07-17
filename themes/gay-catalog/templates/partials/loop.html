@@ -2,7 +2,7 @@
         <div class="post">
             {% if article.featured_image %}
                 <a href="{{ SITEURL }}/{{ article.url }}" class="image-link">
-                    <img src="{{ article.featured_image|e }}" alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
+                    <img src="{{ SITEURL }}/uploads/{{ article.featured_image|e }}" alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
                 </a>
             {% else %}
                 <a href="{{ SITEURL }}/{{ article.url }}" class="image-link">

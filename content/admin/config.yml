@@ -16,7 +16,8 @@ collections:
       - {label: "Title", name: "title", widget: "string", required: false}
       - {label: "date", name: "date", widget: "datetime", required: false}
       - {label: "Post Type", name: "post_type", default: "text", required: false}
-      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Image Upload", name: "upload_sign", widget: "image", required: false}
+      - {label: "Featured Image", name: "featured_image", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "Gay Movie" # Used in routes, e.g., /admin/collections/blog
     label: "Gay Movie" # Used in the UI
@@ -30,7 +31,8 @@ collections:
       - {label: "Country", name: "country", widget: "string", required: false}
       - {label: "Featuring", name: "featuring", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", required: false}
-      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Image Upload", name: "upload_sign", widget: "image", required: false}
+      - {label: "Featured Image", name: "featured_image", widget: "string", required: false}
       - {label: "Video", name: "youtube", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "Gay Short Movie" # Used in routes, e.g., /admin/collections/blog
@@ -45,6 +47,7 @@ collections:
       - {label: "Country", name: "country", widget: "string", required: false}
       - {label: "Featuring", name: "featuring", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", required: false}
-      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Image Upload", name: "upload_sign", widget: "image", required: false}
+      - {label: "Featured Image", name: "featured_image", widget: "string", required: false}
       - {label: "Video", name: "youtube", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
