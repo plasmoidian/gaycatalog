@@ -1,9 +1,9 @@
 ---
 title: Morning is broken
 original: Morning is broken
-year: '2016'
+year: 2016
 country: United Kingdom
-featuring: 'Nigel Allen, Jack Hawkins'
+featuring: Nigel Allen, Jack Hawkins
 date: 2019-07-17T00:26:19.516Z
 featured_image: morning-is-broken.jpg
 youtube: LHojUG0iIkE
