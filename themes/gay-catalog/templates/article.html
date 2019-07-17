@@ -33,9 +33,9 @@
         <div class="columns">
             <div class="column is-one-third">
                 {% if article.featured_image %}
-                    <img class="mb-10" src="{{ SITEURL }}/uploads/{{ article.featured_image|e }}" alt="{{ article.category }} - {{ article.title }} ({{ article.year }})" ></img>
+                    <img class="mb-10" src="{{ SITEURL }}/uploads/{{ article.featured_image|e }}" alt="{{ article.category }} - {{ article.title }} ({{ article.year|e }})" ></img>
                     {% else %}
-                    <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.title|e }}.jpg' alt="{{ article.category }} - {{ article.title }} ({{ article.year }})"></img>
+                    <img class="mb-10" src='{{ SITEURL }}/uploads/{{ article.title|e }}.jpg' alt="{{ article.category }} - {{ article.title }} ({{ article.year|e }})"></img>
                     {% endif %}
                 </div>
                 <div class="column is-two-thirds">
@@ -55,7 +55,7 @@
                         {% if article.year %}
                         <tr>
                             <td>Year:</td>
-                            <td>{{ article.year }}</td>
+                            <td>{{ article.year|e }}</td>
                         </tr>
                         {% endif %}  
                         {% if article.featuring %}
