@@ -271,6 +271,9 @@ footer a:hover {
   a:hover {
     color: $fontcolor3;
   }
+  img {
+    width: 100%;
+  }
 }
 .tag-read-more {
   display: flex;
@@ -343,4 +346,7 @@ blockquote:after {
   .tag-read-more a {
     font-size: 0.6rem;
   } 
+  .content blockquote {
+    font-size: 1.3rem;
+  }
 }
